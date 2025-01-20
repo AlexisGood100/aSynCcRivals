@@ -1,0 +1,56 @@
+.custom-gamer-logo-insertion{
+    width: auto; 
+     height: auto; 
+     display: flex; 
+     flex-wrap: wrap;
+     justify-content: center;
+    align-items: center; 
+}
+
+.projects ul{
+    display:flex;
+    justify-content: center;
+}
+
+.projects ul li:hover{
+    color:lightseagreen;
+    cursor:pointer;
+}
+
+/* Start of Projects */
+.projects-container{
+    text-align: center;
+}
+
+.projects-container h1 {
+    margin: 1rem;
+    margin-top:2%;
+}
+
+/* .projects-container ul {
+   
+} */
+
+
+.projects-container li {
+    margin:2rem;
+   
+    list-style-type: none;
+}
+
+
+.gamer-logo{
+    width: 15vw;
+    height: 15vh;
+    margin:1rem;
+    border-radius: 50%;
+    background-size: cover; /* Ensures the image covers the div */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Keeps the image centered */
+    border: 2px solid white;
+    cursor:pointer;
+}
+
+.gamer-logo:hover{
+    box-shadow:2px 2px 2px 4px indigo;
+}

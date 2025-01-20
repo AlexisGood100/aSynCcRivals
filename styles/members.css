@@ -1,0 +1,42 @@
+/* members */
+
+.members-container{
+    text-align: center;
+    margin-top:2%;
+}
+
+.members{
+    display:flex;
+    justify-content: center;
+}
+
+.member{
+    margin:1rem;
+    box-shadow: 2px 2px 2px 1px white;
+    padding:1rem;
+    border:2px solid indigo;
+    border-radius: 10%;
+}
+
+.member:hover{
+    box-shadow:2px 2px 2px 4px orange;
+}
+
+.member h3{
+    margin:.2rem;
+    padding:.2rem;
+    font-size:2rem;
+}
+
+.member img{
+    width:150px;
+    height:150px;
+    box-shadow: 2px 2px 2px 2px white;
+    border-radius: 50%;
+}
+
+.member p{
+    margin:.5rem;
+    padding:.5rem;
+}
+
