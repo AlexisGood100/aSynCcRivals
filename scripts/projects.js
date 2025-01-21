@@ -24,10 +24,10 @@ allProjectLinks[2].addEventListener('click', ()=>{
 // setting up the gamer logos
 
 const gamerLogoSrcs = [
-    new Project('GokuAsync', '/images/logos/logo1.jpg'),
-    new Project('VenomAsync', '/images/logos/logo2.jpg'),
-    new Project('GokuAsync2', '/images/logos/logo3.jpg'),
-    new Project('VenomAsync2','/images/logos/logo4.jpg')
+    new Project('GokuAsync', './images/logos/logo1.jpg'),
+    new Project('VenomAsync', './images/logos/logo2.jpg'),
+    new Project('GokuAsync2', './images/logos/logo3.jpg'),
+    new Project('VenomAsync2','./images/logos/logo4.jpg')
 ];
 
 // inserting the images into the frontend when the gamer logos tab is clicked
